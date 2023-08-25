@@ -96,19 +96,7 @@ input {
 }
 
 .logo-header {
-  display: inline-block;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--accent-text);
   margin-right: 76px;
-}
-
-.logo-header-two {
-  color: var(--color-main-text);
 }
 
 .nav-header {

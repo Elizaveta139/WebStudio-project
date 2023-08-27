@@ -103,8 +103,9 @@ input {
 }
 
 @media only screen and (max-width: 767.98px) {
-  .header {
-    padding: 23.5px 16px;
+  .container-nav {
+    padding-top: 24px;
+    padding-bottom: 24px;
   }
 }
 
@@ -138,7 +139,7 @@ input {
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1158px) {
   .logo-header {
     margin-right: 76px;
   }
@@ -886,11 +887,11 @@ input {
 }
 
 @media only screen and (max-width: 1157px) {
-  .galery-link {
-    border: 1px solid var(--color-tertiary-text);
+  .portfolio-galery-item {
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   }
 }
+
 .galery-link:hover,
 .galery-link:focus {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -1062,13 +1063,13 @@ input {
   .social-media {
     justify-content: normal;
     align-items: normal;
+    margin-bottom: 0;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .social-media {
     margin-right: 80px;
-    margin-bottom: 0;
   }
 }
 
@@ -1495,8 +1496,8 @@ input {
   align-items: center;
   justify-content: center;
 
-  min-height: 32px;
-  min-width: 22px;
+  min-height: 22px;
+  min-width: 32px;
   padding: 0;
 
   background-color: transparent;
